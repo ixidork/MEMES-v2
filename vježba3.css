@@ -1,0 +1,46 @@
+html, body {
+    height: 100%;
+    padding-top: 25px;
+    background-color: #656d69;
+    /* The html and body elements cannot have any padding or margin. */
+}
+.banana {
+  background: white;
+  border-bottom: 1px solid lightgrey;
+  padding: 30px 25px;
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+    min-height: 100%;
+    height: auto;
+    /* Negative indent footer by its height */
+    margin: 0 auto -60px;
+    /* Pad bottom by footer height */
+    padding: 0 0 60px;
+}
+
+/* Set the fixed height of the footer here */
+#footer {
+    height: 60px;
+    background-color: black;
+}
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+.container {
+    width: auto;
+    max-width: 680px;
+    padding: 0 15px;
+}
+
+.container .credit {
+    margin: 20px 0;
+}
+
+/* social */
+.social {
+  padding: 0px 5px;
+ }
